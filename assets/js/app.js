@@ -31,18 +31,16 @@ function initializeApplication() {
 	elHeaderTagLine.style.fontSize = '.4em';
 	elHeader.appendChild(elHeaderTagLine);
 	
-	
 	var elMain = document.createElement('main');
-	elMain.innerHTML = '<p>Hello World</p>';
+	elMain.innerHTML = '<p>Hello World!</p>';
 	elWrapper.appendChild(elMain);
 	
 	var elFooter = document.createElement('footer');
 	elFooter.innerHTML = '<h4>get excited about learning JavaScript...</h4>';
 	elWrapper.appendChild(elFooter);
 	
-	elHeaderTitle.classname = 'animated bounceInDown';
-	elHeaderTagLine.classname = 'animated bounceInLeft';
-	elMain.classname = 'animated zoomIn';
-	elFooter.classname = 'animated bounceInRight';
+	elHeaderTitle.className = 'animated bounceInDown';
+	elHeaderTagLine.className = 'animated bounceInLeft';
+	elMain.className = 'animated zoomIn';
+	elFooter.className = 'animated bounceInRight';
 }
-
