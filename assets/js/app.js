@@ -1,5 +1,4 @@
 // JavaScript Document
-
 'use strict';
 
 var applicationTitle = 'inside out - js';
@@ -8,7 +7,7 @@ var applicationTagLine = 'continuously falling forward into the light...';
 
 window.addEventListener('load', initializeApplication);
 
-function initializeApplication(){
+function initializeApplication() {
 
 	document.title = applicationTitle;
 	
@@ -29,13 +28,13 @@ function initializeApplication(){
 	
 	var elHeaderTagLine = document.createElement('h2');
 	elHeaderTagLine.textContent = applicationTagLine;
+	elHeaderTagLine.style.fontSize = '.4em';
 	elHeader.appendChild(elHeaderTagLine);
 	
-	elHeaderTagLine.style.fontSize = '.4em';
 	
 	var elMain = document.createElement('main');
 	elMain.innerHTML = '<p>Hello World</p>';
-	elMain .appendChild(elMain);
+	elWrapper.appendChild(elMain);
 	
 	var elFooter = document.createElement('footer');
 	elFooter.innerHTML = '<h4>get excited about learning JavaScript...</h4>';
